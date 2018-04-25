@@ -1,1 +1,25 @@
-Hello World!
+<!DOCTYPE html>
+<html>
+<body>
+
+<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCaTli_R1qX8soE9aFCbJFmemZVJ__rSzs",
+    authDomain: "helloworld-30fb9.firebaseapp.com",
+    databaseURL: "https://helloworld-30fb9.firebaseio.com",
+    projectId: "helloworld-30fb9",
+    storageBucket: "helloworld-30fb9.appspot.com",
+    messagingSenderId: "905601258286"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="SaveToFirebase.js"></script>
+
+<input type="text" name="email" id="email">
+<button type="button" onClick="SaveToFirebase(document.getElementById('email').value)">Submit</button>
+<p id="demo">Hello World!</p>
+
+</body>
+</html>
