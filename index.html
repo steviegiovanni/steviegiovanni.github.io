@@ -1,25 +1,105 @@
 <!DOCTYPE html>
 <html>
-<body>
+	<head>
+		<title>Stevie's Homepage</title>
+		<meta name="description" content="GitHub page by Stevie Giovanni">
+		<meta name="keywords" content="web design blog, GitHub pages, web dev blog, Stevie Giovanni">
+	</head>
+	<body>
+		<!-- Headings -->
+		<h1>Stevie's Homepage</h1>
 
-<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyCaTli_R1qX8soE9aFCbJFmemZVJ__rSzs",
-    authDomain: "helloworld-30fb9.firebaseapp.com",
-    databaseURL: "https://helloworld-30fb9.firebaseio.com",
-    projectId: "helloworld-30fb9",
-    storageBucket: "helloworld-30fb9.appspot.com",
-    messagingSenderId: "905601258286"
-  };
-  firebase.initializeApp(config);
-</script>
-<script src="SaveToFirebase.js"></script>
+		<!-- Paragraph -->
+		<p>
+		Welcome to my page. My name is <strong>Stevie Giovanni</strong> and I am using <em>GitHub</em> to practice my software engineering skills. Feel free to look around! 
+		</p>
+		<p>
+		Check out my <a href="https://www.linkedin.com/in/stevie-giovanni-12734835/" target="_blank">LinkedIn</a>!
+		</p>
 
-<input type="text" name="email" id="email">
-<button type="button" onClick="SaveToFirebase(document.getElementById('email').value)">Submit</button>
-<p id="demo">Hello World!</p>
+		<!-- Lists -->
+		<p>Also, my other GitHub projects:
+		<ul>
+			<li><a href="https://github.com/steviegiovanni/Unity_AI_FSM" target="_blank">Unity - AI FSM</a></li>
+			<li><a href="https://github.com/steviegiovanni/Unity-LoginSystem" target="_blank">Unity - Login System</a></li>
+			<li><a href="https://github.com/steviegiovanni/Unity-AssetBundles" target="_blank">Unity - Asset Bundles</a></li>
+			<li><a href="https://github.com/steviegiovanni/NodeJS-ExpressJS-crash-course" target="_blank">NodeJS - ExpressJS Crash Course</a></li>
+			<li><a href="https://github.com/steviegiovanni/NodeJS-WebService" target="_blank">NodeJS - Simple Web Service</a></li>
+		</ul>
+		</p>
 
-</body>
+		<!-- Table 
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Age</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Stevie Giovanni</td>
+					<td>steviegiovanni@gmail.com</td>
+					<td>29</td>
+				</tr>
+			</tbody>
+		</table>
+		-->
+		
+		<hr>
+		<br>
+		
+		<!-- Forms -->
+		<form action="process.php" method="POST">
+			<div>
+				<label>Name</label>
+				<input type="text" name="name">
+			</div>
+			<br>
+			<div>
+				<label>Email</label>
+				<input type="email" name="email" placeholder="example@lala.com">
+			</div>
+			<br>
+			<div>
+				<label>Subject</label>
+				<select name="subject">
+					<option value="general">General</option>
+					<option value="job">Job Opportunity</option>
+				</select>
+			</div>
+			<br>
+			<div>
+				<label>Message</label><br>
+				<textarea name="message"></textarea>
+			</div>
+			<br>
+			<input type="submit" name="submit" value="Submit">
+		</form>
+
+		<!-- Image -->
+		<img src="images/birds-humming-bird-purple-blue-green-feather-cute-bird-pasari-colibri44-wallpapers.jpg" alt="My sample image" width="200">
+
+		<!-- Quotations 
+		<blockquote cite="http://traversymedia.com">
+			test quotation
+		</blockquote>
+
+		<p>
+		The <annr title="World Wide Web">WWW</abbr> is awesome
+		</p>
+
+		<p>
+			<cite>
+			HTML crash course
+			</cite>
+		</p>
+
+		-->
+		
+		<footer>
+			<p>Copyright &copy; 2018 Stevie Giovanni</p>
+		</footer>
+	</body>
 </html>
