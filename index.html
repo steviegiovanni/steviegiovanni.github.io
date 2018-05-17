@@ -1,124 +1,69 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Stevie's Homepage</title>
-		<meta name="description" content="GitHub page by Stevie Giovanni">
-		<meta name="keywords" content="web design blog, GitHub pages, web dev blog, Stevie Giovanni">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
-	<body>
-		<div class="container">
-			<div class="box-1">
-				<!-- Headings -->
-				<h1>Stevie's Homepage</h1>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="Stevie's GitHub Page">
+        <meta name="keywords" content="Stevie Giovanni, GitHub, Projects">
+        <meta name="author" content="Stevie Giovanni">
+        <title>Stevie's GitHub | Welcome</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <h1><span class="highlight">Stevie's</span> GitHub</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="current"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-				<!-- Paragraph -->
-				<p>
-				Welcome to my page. My name is <strong>Stevie Giovanni</strong> and I am using <em>GitHub</em> to practice my software engineering skills. Feel free to look around! 
-				</p>
-			</div>
+        <section id="showcase">
+            <div class="container">
+                <h1>Stevie's GitHub Page</h1>
+                <p>My GitHub page where I store all my projects.</p>
+            </div>
+        </section>
 
-			<div class="box-2">
-				<!-- Headings -->
-				<h1>lalala</h1>
+        <section id="newsletter">
+            <div class="container">
+                <h1>Subscribe to my newsletter</h1>
+                <form>
+                    <input type="email" placehoder="someone@example.com">
+                    <button type="submit" class="button_newsletter">Subscribe</button>
+                </form>                    
+            </div>            
+        </section>
 
-				<!-- Paragraph -->
-				<p>
-				Welcome to my page. My name is <strong>Stevie Giovanni</strong> and I am using <em>GitHub</em> to practice my software engineering skills. Feel free to look around! 
-				</p>
-			</div>
+        <section id="boxes">
+            <div class="container">
+                <div class="box">
+                    <img src="./images/github.png">
+                    <h1>Projects</h1>
+                    <p>Links to my GitHub projects</p>
+                </div>
+                <div class="box">
+                        <img src="./images/wordpress.png">
+                    <h1>Blog</h1>
+                    <p>Latest updates on my life and what I have been working on</p>
+                </div>
+                <div class="box">
+                        <img src="./images/links.png">
+                    <h1>Links</h1>
+                    <p>Other things that I love</p>
+                </div>
+            </div>
+        </section>
 
-			<p>
-			Check out my <a href="https://www.linkedin.com/in/stevie-giovanni-12734835/" target="_blank">LinkedIn</a>!
-			</p>
-
-			<!-- Lists -->
-			<div class="links">
-				<p><h2>Also, my other GitHub projects:</h2>
-				<ul>
-					<li><a href="https://github.com/steviegiovanni/Unity_AI_FSM" target="_blank">Unity - AI FSM</a></li>
-					<li><a href="https://github.com/steviegiovanni/Unity-LoginSystem" target="_blank">Unity - Login System</a></li>
-					<li><a href="https://github.com/steviegiovanni/Unity-AssetBundles" target="_blank">Unity - Asset Bundles</a></li>
-					<li><a href="https://github.com/steviegiovanni/NodeJS-ExpressJS-crash-course" target="_blank">NodeJS - ExpressJS Crash Course</a></li>
-					<li><a href="https://github.com/steviegiovanni/NodeJS-WebService" target="_blank">NodeJS - Simple Web Service</a></li>
-				</ul>
-				</p>
-			</div>
-
-			<!-- Table 
-			<table>
-				<thead>
-					<tr>
-						<th>Name</th>
-						<th>Email</th>
-						<th>Age</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Stevie Giovanni</td>
-						<td>steviegiovanni@gmail.com</td>
-						<td>29</td>
-					</tr>
-				</tbody>
-			</table>
-			-->
-			
-			<hr>
-			<br>
-			
-			<!-- Forms -->
-			<form action="process.php" method="POST" class="myForm">
-				<div class="form-group">
-					<label>Name</label>
-					<input type="text" name="name">
-				</div>
-				<br>
-				<div class="form-group">
-					<label>Email</label>
-					<input type="email" name="email" placeholder="example@lala.com">
-				</div>
-				<br>
-				<div class="form-group">
-					<label>Subject</label>
-					<select name="subject">
-						<option value="general">General</option>
-						<option value="job">Job Opportunity</option>
-					</select>
-				</div>
-				<br>
-				<div class="form-group">
-					<label>Message</label><br>
-					<textarea name="message"></textarea>
-				</div>
-				<br>
-				<input type="submit" name="submit" value="Submit">
-			</form>
-
-		</div>
-
-		<!-- Image -->
-		<img src="images/birds-humming-bird-purple-blue-green-feather-cute-bird-pasari-colibri44-wallpapers.jpg" alt="My sample image" width="200">
-
-		<!-- Quotations 
-		<blockquote cite="http://traversymedia.com">
-			test quotation
-		</blockquote>
-
-		<p>
-		The <annr title="World Wide Web">WWW</abbr> is awesome
-		</p>
-
-		<p>
-			<cite>
-			HTML crash course
-			</cite>
-		</p>
-
-		-->
-		
-		<footer>
-			<p>Copyright &copy; 2018 Stevie Giovanni</p>
-		</footer>
-	</body>
+        <footer>
+            <p>Stevie's GitHub, Copyright &copy; 2018</p>
+        </footer>
+    </body>
 </html>
