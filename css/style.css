@@ -189,6 +189,31 @@ aside li{
 	margin-bottom:5px;
 }
 
+/* contact form */
+.contactform textarea{
+	width: 450px;
+	padding: 5px;
+}
+
+.contactform select, .contactform input{
+	width: 200px;
+	padding: 5px;
+}
+
+/* projects */
+ul#projects li{
+	list-style:none;
+	padding:20px;
+	border:#cccccc solid 1px;
+	margin-bottom:5px;
+	background:#e6e6e6;
+}
+
+ul#projects a{
+	text-decoration: none;
+	color:#000000;
+}
+
 /* footer */
 footer{
 	padding:20px;

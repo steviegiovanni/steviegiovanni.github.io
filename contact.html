@@ -29,7 +29,28 @@
             <div class="container">
                 <article>
                     <h1 class="page-title">Contact</h1>
-                    <ul id="contact"></ul>
+                    <form class="contactform">
+                        <div>
+                            <label>Name</label><br>
+                            <input type="text" placeholder="someone">
+                        </div>
+                        <div>
+                            <label>Email</label><br>
+                            <input type="email" placeholder="someone@example.com">
+                        </div>
+                        <div>
+                            <label>Subject</label><br>
+                            <select>
+                                <option value="opportunity">Job opportunity</option>
+                                <option value="general">General enquiry</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Message</label><br>
+                            <textarea placeholder="message" rows="10"></textarea>
+                        </div>
+                        <button type="submit" class="button_newsletter">Submit</button>
+                    </form>   
                 </article>
             </div>
         </section>
